@@ -1,0 +1,33 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 150px;
+  border: 5px solid white;
+  /* debug */
+  background-color: yellow;
+  /* fine debug */
+  position: relative;
+}
+
+nav{
+  height: 50px;
+  border bottom: 5px solid white;
+  /* debug */
+  background-color: grey;
+  /* fine debug */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+footer{
+  height: 100px;
+  border: solid 5px white;
+  /* dubug */
+  background-color: pink;
+  /* fine debug */
+}
