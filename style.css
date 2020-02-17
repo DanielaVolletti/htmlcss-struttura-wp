@@ -109,6 +109,12 @@ footer{
   padding-left: 20px;
 }
 
+#fondo-pagina::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
 footer .colonne-fondo-pagina{
   width: 20%;
   height: 100%;
