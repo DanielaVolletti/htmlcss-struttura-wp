@@ -4,18 +4,30 @@
   box-sizing: border-box;
 }
 
+body{
+  margin-right: 50px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
 header{
-  height: 150px;
+  height: 250px;
   border: 5px solid white;
+  margin-bottom: 10px;
   /* debug */
   background-color: yellow;
   /* fine debug */
   position: relative;
 }
 
-nav{
+#titolo{
+  height: 190px;
+  width: 100%;
+  border: 10px solid white;
+}
+
+header nav{
   height: 50px;
-  border-top: 5px solid white;
   /* debug */
   background-color: grey;
   /* fine debug */
@@ -31,8 +43,8 @@ main::after{
 }
 
 #colonna-1{
-  width: 30%;
-  height: 200px;
+  width: 20%;
+  height: 700px;
   float: left;
   border: solid 5px white;
   /* dubug */
@@ -40,9 +52,23 @@ main::after{
   /* fine debug */
 }
 
+#pages{
+  height: 60%;
+  border-bottom: solid 10px white;
+}
+
+#archives{
+  height: 15%;
+  border-bottom: solid 10px white;
+}
+
+#meta{
+  height: 25%;
+}
+
 #colonna-2{
   width: 50%;
-  height: 700px;
+  height: 2800px;
   border: solid 5px white;
   float: left;
   /* dubug */
@@ -51,8 +77,8 @@ main::after{
 }
 
 #colonna-3{
-  width: 20%;
-  height: 150px;
+  width: 30%;
+  height: 300px;
   border: solid 5px white;
   float: left;
   /* dubug */
@@ -60,8 +86,17 @@ main::after{
   /* fine debug */
 }
 
+#search{
+  height: 40%;
+  border-bottom: solid 20px white;
+}
+
+#tag{
+  height: 60%;
+}
+
 footer{
-  height: 100px;
+  height: 400px;
   border: solid 5px white;
   /* dubug */
   background-color: pink;
