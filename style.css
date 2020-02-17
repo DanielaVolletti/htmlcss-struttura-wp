@@ -15,13 +15,49 @@ header{
 
 nav{
   height: 50px;
-  border bottom: 5px solid white;
+  border-top: 5px solid white;
   /* debug */
   background-color: grey;
   /* fine debug */
   position: absolute;
   bottom: 0;
   width: 100%;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#colonna-1{
+  width: 30%;
+  height: 200px;
+  float: left;
+  border: solid 5px white;
+  /* dubug */
+  background-color: red;
+  /* fine debug */
+}
+
+#colonna-2{
+  width: 50%;
+  height: 700px;
+  border: solid 5px white;
+  float: left;
+  /* dubug */
+  background-color: orange;
+  /* fine debug */
+}
+
+#colonna-3{
+  width: 20%;
+  height: 150px;
+  border: solid 5px white;
+  float: left;
+  /* dubug */
+  background-color: lightblue;
+  /* fine debug */
 }
 
 footer{
