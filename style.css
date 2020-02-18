@@ -1,3 +1,4 @@
+/* regole generali */
 *{
   padding: 0;
   margin: 0;
@@ -10,9 +11,9 @@ body{
   margin-top: 30px;
 }
 
+/* intestazione */
 header{
   height: 250px;
-  border: 5px solid white;
   margin-bottom: 10px;
   /* debug */
   background-color: yellow;
@@ -21,7 +22,7 @@ header{
 }
 
 #titolo{
-  height: 190px;
+  height: 200px;
   width: 100%;
   border: 10px solid white;
 }
@@ -36,77 +37,74 @@ header nav{
   width: 100%;
 }
 
+/* parte centrale */
 main::after{
   content: "";
   display: table;
   clear: both;
 }
 
+/* colonna destra */
 #colonna-1{
   width: 20%;
-  height: 700px;
   float: left;
-  border: solid 5px white;
   /* dubug */
+  height: 700px;
   background-color: red;
   /* fine debug */
 }
 
-#pages{
-  height: 60%;
-  border-bottom: solid 10px white;
-}
+.widget-sinistra{
+  margin-bottom: 10px;
+  /* debug */
+  height: 200px;
+  /* fine debug */
+  }
 
-#archives{
-  height: 15%;
-  border-bottom: solid 10px white;
-}
-
-#meta{
-  height: 25%;
-}
-
+/* colonna centrale */
 #colonna-2{
-  width: 50%;
-  height: 2800px;
-  border: solid 5px white;
+  width: 48%;
+  margin-left: 1%;
+  margin-right: 1%;
   float: left;
   /* dubug */
   background-color: orange;
+  height: 2800px;
   /* fine debug */
 }
 
+/* colonna destra */
 #colonna-3{
   width: 30%;
-  height: 300px;
-  border: solid 5px white;
   float: left;
   /* dubug */
   background-color: lightblue;
+  height: 300px;
   /* fine debug */
 }
 
 #search{
   height: 40%;
-  border-bottom: solid 20px white;
+  margin-bottom: 10px;
 }
 
 #tag{
   height: 60%;
 }
 
+/* piè di pagina */
 footer{
-  height: 400px;
-  border: solid 5px white;
   /* dubug */
   background-color: pink;
+  height: 400px;
   /* fine debug */
 }
 
 #fondo-pagina{
-  height: 70%;
   border-bottom: solid 1px grey;
-  padding-left: 20px;
+  /* debug */
+  height: 70%;
+  /* fine debug */
 }
 
 #fondo-pagina::after{
@@ -115,18 +113,18 @@ footer{
   clear: both;
 }
 
-footer .colonne-fondo-pagina{
+.colonne-fondo-pagina{
   width: 20%;
-  height: 100%;
   float:left;
-  margin-right: 10px;
   /* debug */
   border-right: solid 1px black;
+  height: 100%;
   /* fine debug */
 }
-
-footer .colonne-fondo-pagina2{
-  width: 35%;
-  height: 100%;
+#colonne-fondo-pagina2{
+  width: 40%;
   float: left;
+  /* debug */
+  height: 100%;
+  /* fine debug */
 }
